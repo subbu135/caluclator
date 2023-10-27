@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: aquamarine;
+}
+.one{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 55px;
+    color: green;
+}
+.two{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -75px;
+}
+.three{
+    background-color: orchid;
+    padding: 15px;
+    border-radius: 15px;
+}
+.three form input{
+    border: 3px green solid;
+    outline: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 9px;
+}
+form .four{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .four input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    width: 100px;
+    
+}
+.six{
+    color: green;
+}
+.three form input.seven{
+    border-radius: 15px;
+}
